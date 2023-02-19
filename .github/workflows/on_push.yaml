@@ -13,7 +13,7 @@ jobs:
         with:
           login: ${{secrets.login}}
           token: ${{secrets.token}}
-          label: minidlna
+          label: deejayadi/minidlna
           tags: latest
           platforms: linux/amd64,linux/arm64
           push: true
